@@ -229,3 +229,6 @@ data/*
 *.xlsx
 # Résultats générés (CSV, figures)
 resultats/
+
+# Rendus
+docs/rendu/
