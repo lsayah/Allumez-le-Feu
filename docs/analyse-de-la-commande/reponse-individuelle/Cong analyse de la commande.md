@@ -41,7 +41,24 @@ Pour chaque question, la donnée qu'il vous faudrait idéalement pour répondre.
 
 | Question | Donnée idéale | Grain (une ligne = ?) | Période | Fraîcheur | Emprise géographique |
 |---|---|---|---|---|---|
-| Q1 -  Ou sont apparus les feux de forets ?| Liste des feux de forets | Feu | Plusieurs années|Dernier mois||
-| Q2 - Ou sont situés chaque caserne, hopitaux ?|  | | | | |
-| Q3 - | | | | | |
-| Q4 -  | | | | | |
+| Q1 - Où démarrent le plus de feux ? | Commune et coordonnées de chaque feu (BDIFF) | Un feu | 10 dernières années | Dernier mois | Région, par commune |
+| Q2 - À quel moment démarrent les feux ? | Date et heure de départ de chaque feu (BDIFF) | Un feu | 10 dernières années | Dernier mois | Région |
+| Q3 - La surface brûlée augmente-t-elle ? | Surface brûlée de chaque feu (BDIFF) | Un feu | 10 dernières années | Annuelle | Région |
+| Q4 - Combien de feux dépassent 1 hectare ? | Surface brûlée de chaque feu (BDIFF) | Un feu | 10 dernières années | Dernier mois | Région |
+| Q5 - Quelles sont les causes des feux ? | Cause de chaque feu (BDIFF) | Un feu | 10 dernières années | Dernier mois | Région, par commune |
+| Q6 - Les feux démarrent-ils près des routes et des maisons ? | Coordonnées des départs de feu, des routes, des voies ferrées et des bâtiments (BDIFF, BD TOPO) | Un feu | 10 dernières années | Annuelle | Région |
+| Q7 - Combien de feux sont criminels, et où ? | Cause et commune de chaque feu (BDIFF) | Un feu | 10 dernières années | Dernier mois | Région, par commune |
+| Q8 - À quel niveau de risque météo les feux se multiplient-ils ? | Indice Forêt Météo du jour et nombre de départs de feu (Météo-France, BDIFF) | Une station météo par jour | 10 dernières années | Quotidienne | Région, par station |
+| Q9 - Y a-t-il plus de jours chauds et secs qu'avant ? | Température et humidité de chaque jour (Météo-France) | Une station météo par jour | 30 dernières années | Quotidienne | Région, par station |
+| Q10 - Les grands feux ont-ils lieu par vent fort ? | Vitesse du vent le jour de chaque feu (Météo-France, BDIFF) | Un feu | 10 dernières années | Quotidienne | Région |
+| Q11 - Combien de temps mettent les pompiers pour arriver ? | Heure d'alerte et heure d'arrivée des secours (SDIS) | Une intervention | 5 dernières années | Dernier mois | Région, par commune |
+| Q12 - Arriver vite limite-t-il la taille du feu ? | Délai d'intervention et surface brûlée de chaque feu (SDIS, BDIFF) | Un feu | 10 dernières années | Dernier mois | Région |
+| Q13 - Quelles forêts sont loin d'une caserne ? | Coordonnées des casernes et des forêts, temps de trajet par la route (BD TOPO) | Une zone boisée | Situation actuelle | Annuelle | Région |
+| Q14 - Quelles forêts sont loin d'un point d'eau ? | Coordonnées des lacs utilisables par les bombardiers d'eau et des forêts (BD TOPO) | Une zone boisée | Situation actuelle | Annuelle | Région |
+| Q15 - Les secours suivent-ils quand plusieurs feux démarrent en même temps ? | Heures d'alerte et d'arrivée des secours les jours à plusieurs feux (SDIS) | Un feu | 10 dernières années | Dernier mois | Région |
+| Q16 - Combien de pompiers volontaires sont disponibles l'été ? | Nombre de volontaires disponibles par jour (SDIS) | Un centre de secours par jour | 5 derniers étés | Hebdomadaire | Région, par centre de secours |
+| Q17 - Le budget est-il le même dans chaque département ? | Budget des secours et surface de forêt de chaque département (DGSCGC, IGN) | Un département par année | 10 dernières années | Annuelle | Région, par département |
+| Q18 - Où placer les postes de guet ? | Coordonnées des départs de feu et relief (BDIFF, IGN) | Un feu | 10 dernières années | Annuelle | Région |
+| Q19 - Combien de maisons sont proches d'une forêt à risque ? | Coordonnées des habitations et carte des forêts à risque (BD TOPO, préfecture) | Une habitation | Situation actuelle | Annuelle | Région, par commune |
+| Q20 - Quels hôpitaux sont loin des zones à risque ? | Coordonnées des hôpitaux et carte des zones à risque (FINESS, préfecture) | Un hôpital | Situation actuelle | Annuelle | Région |
+| Q21 - Le débroussaillement réduit-il les feux ? | Contrôles de débroussaillement et nombre de feux par commune (mairies, BDIFF) | Une commune par année | 10 dernières années | Annuelle | Région, par commune |
