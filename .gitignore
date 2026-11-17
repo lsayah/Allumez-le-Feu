@@ -222,10 +222,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-20251103/
+
 data/*
 !data/.gitkeep
 *.csv
 *.xlsx
-# Résultats générés (CSV, figures)
-resultats/
+

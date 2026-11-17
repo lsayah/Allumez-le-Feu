@@ -32,7 +32,8 @@ Les mots de la commande que vous ne savez pas définir précisément, ou qui peu
 La décision à éclairer, en une phrase :
 
 Ce qui manque dans la commande pour y répondre (une information, une précision, une hypothèse à confirmer) :
--
+- Départ de feu due à une température sèche et une taux d'humidité basse due aux canicules prolongés dans tout(e) la région/le pays. 
+- Point de feu à plusieurs endroit différente dans un très petit lap de temps dont dans des régions assez difficiles d'accès, un manque d'effectif et aussi de point d'eau dans des grosses zones boisées/inhabités.
 
 ## 4. Les données
 
@@ -40,7 +41,7 @@ Pour chaque question, la donnée qu'il vous faudrait idéalement pour répondre.
 
 | Question | Donnée idéale | Grain (une ligne = ?) | Période | Fraîcheur | Emprise géographique |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
+| Q1 -  Ou sont apparus les feux de forets ?| Liste des feux de forets | Feu | Plusieurs années|Dernier mois||
+| Q2 - Ou sont situés chaque caserne, hopitaux ?|  | | | | |
+| Q3 - | | | | | |
+| Q4 -  | | | | | |
